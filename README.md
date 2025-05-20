@@ -58,13 +58,3 @@
   Registration No: 2025SR0578940
 
 ---
-
-## 📎 Additional Info (Optional)
-
-If needed, include:
-- Awards and honors (graduate or undergraduate)
-- Course projects
-- GitHub profile: [https://github.com/your-username](https://github.com/your-username)
-- Personal website link
-
----
