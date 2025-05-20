@@ -1,182 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jiacheng Xue - CV</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiacheng Xue - Curriculum Vitae</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f5f7fa;
-      color: #2c3e50;
-      line-height: 1.6;
-      padding: 40px;
-    }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            max-width: 1024px;
+            margin: 2rem auto;
+            padding: 2rem;
+        }
 
-    .container {
-      display: flex;
-      max-width: 1000px;
-      margin: auto;
-      background-color: #ffffff;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-      border-radius: 10px;
-      overflow: hidden;
-    }
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            padding: 2.5rem;
+        }
 
-    .sidebar {
-      background-color: #2c3e50;
-      color: white;
-      width: 300px;
-      padding: 40px 20px;
-      text-align: center;
-    }
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 1.5rem;
+        }
 
-    .sidebar img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 50%;
-      margin-bottom: 20px;
-      border: 4px solid white;
-    }
+        .photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-right: 2rem;
+            border: 3px solid #2c3e50;
+        }
 
-    .sidebar h1 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
+        .header-info {
+            flex: 1;
+        }
 
-    .sidebar p {
-      font-size: 14px;
-      margin-bottom: 8px;
-    }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
 
-    .main {
-      flex: 1;
-      padding: 40px;
-    }
+        .section {
+            margin-bottom: 2rem;
+        }
 
-    h2 {
-      border-bottom: 2px solid #2c3e50;
-      padding-bottom: 5px;
-      margin-bottom: 20px;
-      font-size: 20px;
-      margin-top: 30px;
-    }
+        h2 {
+            color: #3498db;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #eee;
+        }
 
-    ul {
-      padding-left: 20px;
-    }
+        .publication-item, .patent-item {
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 3px solid #3498db;
+        }
 
-    li {
-      margin-bottom: 10px;
-    }
+        .status {
+            font-style: italic;
+            color: #7f8c8d;
+        }
 
-    .section {
-      margin-bottom: 30px;
-    }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
 
-    a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .publication-title {
-      font-weight: bold;
-    }
-
-    .journal {
-      font-style: italic;
-    }
-  </style>
+        .tag {
+            display: inline-block;
+            background: #ecf0f1;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            margin: 0.2rem;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            <img src="photo.jpg" alt="Profile Photo" class="photo">
+            <div class="header-info">
+                <h1>Jiacheng Xue</h1>
+                <p>Master Candidate in Computer Technology</p>
+                <p>School of Artificial Intelligence and Computer Science</p>
+                <p>Nantong University</p>
+                <p>📧 <a href="mailto:xjc202603@outlook.com">xjc202603@outlook.com</a></p>
+            </div>
+        </div>
 
-<div class="container">
-  <div class="sidebar">
-    <!-- 🖼️ Replace with your own photo -->
-    <img src="photo.jpg" alt="Jiacheng Xue" />
-    <h1>Jiacheng Xue</h1>
-    <p>📧 <a href="mailto:xjc202603@outlook.com" style="color:#ecf0f1;">xjc202603@outlook.com</a></p>
-    <p>🏫 Nantong University</p>
-    <p>🎓 Master in Computer Technology</p>
-    <p>🧠 Research: Intelligent Software Engineering</p>
-  </div>
+        <div class="section">
+            <h2>🎓 Education</h2>
+            <p><strong>Nantong University</strong><br>
+            M.Eng in Computer Technology (Expected 202X)<br>
+            School of Artificial Intelligence and Computer Science</p>
+            
+            <p><strong>Nantong University</strong><br>
+            B.Eng in Software Engineering (2020-2024)<br>
+            School of Information Science and Technology</p>
+        </div>
 
-  <div class="main">
-    <div class="section">
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <strong>Master of Engineering</strong><br/>
-          Nantong University, School of AI & Computer Science<br/>
-          202X – Present
-        </li>
-        <li>
-          <strong>Bachelor of Engineering</strong><br/>
-          Software Engineering, Nantong University<br/>
-          2020 – 2024
-        </li>
-      </ul>
+        <div class="section">
+            <h2>🔬 Research Interests</h2>
+            <div class="tags">
+                <span class="tag">Intelligent Software Engineering</span>
+                <span class="tag">Software Vulnerability Assessment</span>
+                <span class="tag">Continual Learning</span>
+                <span class="tag">Neural Code Translation</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📚 Publications</h2>
+            <div class="publication-item">
+                <h3>Towards prompt tuning-based software vulnerability assessment with continual learning</h3>
+                <p><em>Computers & Security</em> 2025 (SCI/EI, CCF-B, Q2)</p>
+                <p class="status">Published</p>
+            </div>
+            
+            <div class="publication-item">
+                <h3>Learning Never Stops: Improving SVTI via Incremental Learning</h3>
+                <p><em>Under Review</em> (CCF-B, Q2)</p>
+            </div>
+            
+            <div class="publication-item">
+                <h3>A Systematic Literature Review on Neural Code Translation</h3>
+                <p class="status">In Preparation</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ Intellectual Properties</h2>
+            <div class="patent-item">
+                <h3>Continual learning-based SVA method</h3>
+                <p>Application No: 202411106268.3</p>
+            </div>
+            <div class="patent-item">
+                <h3>Long-tailed incremental learning method</h3>
+                <p>Application No: 202411714608.0</p>
+            </div>
+        </div>
     </div>
-
-    <div class="section">
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Intelligent Software Engineering</li>
-        <li>Software Vulnerability Assessment</li>
-        <li>Continual Learning</li>
-        <li>Neural Code Translation</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Publications</h2>
-      <ol>
-        <li>
-          <span class="publication-title">Jiacheng Xue</span>, Xiang Chen*, Jiyu Wang.<br/>
-          <em>Towards prompt tuning-based software vulnerability assessment with continual learning</em>.<br/>
-          <span class="journal">Computers & Security</span>, 2025, 150:104184. (CCF-B, Q2)<br/>
-        </li>
-        <li>
-          <span class="publication-title">Jiacheng Xue</span>, Xiang Chen*, Zhanqi Cui, Yong Liu.<br/>
-          <em>Improving SVTI via Incremental and Long-tailed Learning</em>.<br/>
-          Under Review (CCF-B, Q2)
-        </li>
-        <li>
-          <span class="publication-title">Jiacheng Xue</span>, Xiang Chen*, Caokai Liang, Xiaolin Ju.<br/>
-          <em>A Systematic Literature Review on Neural Code Translation</em>.<br/>
-          (In Preparation)
-        </li>
-      </ol>
-    </div>
-
-    <div class="section">
-      <h2>Patents & Copyright</h2>
-      <ul>
-        <li>Invention Patent: Continual learning for software vulnerability assessment. No: 202411106268.3</li>
-        <li>Invention Patent: Vulnerability type identification method. No: 202411714608.0</li>
-        <li>Software Copyright: Smart Vulnerability Assessment Platform V1.0, No: 2025SR0578940</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Links</h2>
-      <ul>
-        <li>GitHub: <a href="https://xjcway123.github.io/jcxue.github.io/index.html" target="_blank">github.com/your-username</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-
 </body>
 </html>
