@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jiacheng Xue - Personal Homepage</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #222;
+      background-color: #f9f9f9;
+    }
+    .profile-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+    .profile-info {
+      flex: 1;
+      min-width: 260px;
+    }
+    .profile-info h1 {
+      font-size: 2.8rem;
+      margin-bottom: 12px;
+      color: #007acc;
+    }
+    .profile-info p {
+      font-size: 1.1rem;
+      margin: 6px 0;
+    }
+    .profile-photo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      flex-shrink: 0;
+    }
+    .profile-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    section {
+      margin-bottom: 40px;
+      background: #fff;
+      padding: 24px 28px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgb(0 0 0 / 0.05);
+    }
+    section h2 {
+      border-left: 6px solid #007acc;
+      padding-left: 12px;
+      margin-bottom: 16px;
+      color: #007acc;
+    }
+    section p, section li {
+      font-size: 1.1rem;
+      margin: 8px 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      .profile-container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .profile-photo {
+        margin: 0 auto 20px;
+      }
+      section {
+        padding: 16px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-container">
+    <div class="profile-info">
+      <h1>Jiacheng Xue</h1>
+      <p><strong>Email:</strong> <a href="mailto:xjc202603@outlook.com">xjc202603@outlook.com</a></p>
+      <p><strong>Institution:</strong> Nantong University</p>
+      <p><strong>School:</strong> School of Artificial Intelligence and Computer Science</p>
+      <p><strong>Program:</strong> Master in Computer Technology</p>
+      <p><strong>Research Interests:</strong> Intelligent Software Engineering</p>
+    </div>
+    <div class="profile-photo">
+      <img src="assets/photo.jpg" alt="Jiacheng Xue" />
+    </div>
+  </div>
+
+  <section>
+    <h2>🎓 Education</h2>
+    <p><strong>Nantong University</strong><br>
+       <em>Master of Engineering in Computer Technology</em><br>
+       School of Artificial Intelligence and Computer Science<br>
+       Sep 2024 – Jun 2027
+    </p>
+    <p><strong>Nantong University</strong><br>
+       <em>Bachelor of Engineering in Software Engineering</em><br>
+       School of Information Science and Technology<br>
+       Sep 2020 – Jun 2024
+    </p>
+  </section>
+
+  <section>
+    <h2>🔬 Research Direction</h2>
+    <ul>
+      <li>Intelligent Software Engineering</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📚 Publications &amp; Submissions</h2>
+    <ol>
+      <li><strong>Jiacheng Xue</strong>, Xiang Chen*, Jiyu Wang.<br>
+          <em>Towards prompt tuning-based software vulnerability assessment with continual learning</em>.<br>
+          <strong>Computers & Security</strong>, 2025, 150: 104184.<br>
+          (SCI/EI, CCF-B, Q2 Journal)
+      </li>
+      <li><strong>Jiacheng Xue</strong>, Xiang Chen*, Zhanqi Cui, Yong Liu.<br>
+          <em>Learning Never Stops: Improving Software Vulnerability Type Identification via Incremental Learning and Long-tailed Learning</em>.<br>
+          (Under Review, CCF-B, Q2 Journal)
+      </li>
+      <li><strong>Jiacheng Xue</strong>, Xiang Chen*, Xiaofei Xie, Caokai Liang, Xiaolin Ju.<br>
+          <em>A Systematic Literature Review on Neural Code Translation</em>.<br>
+          (Under Review, CCF-A, Q1 Journal)
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>🛠️ Patents &amp; Software Copyright</h2>
+    <ul>
+      <li><strong>Invention Patent</strong>:<br>
+          A continual learning-based method for software vulnerability assessment<br>
+          Application No: 202411106268.3
+      </li>
+      <li><strong>Invention Patent</strong>:<br>
+          A method for vulnerability type identification based on long-tailed incremental learning<br>
+          Application No: 202411714608.0
+      </li>
+      <li><strong>Software Copyright</strong>:<br>
+          Smart Software Vulnerability Assessment Online Platform V1.0<br>
+          Registration No: 2025SR0578940
+      </li>
+    </ul>
+  </section>
+
+</body>
+</html>
