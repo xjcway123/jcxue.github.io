@@ -13,7 +13,12 @@
 **Nantong University**  
 *Master of Engineering in Computer Technology*  
 *School of Artificial Intelligence and Computer Science*  
-*Expected graduation: July 202X*
+*Sep 2024 – Jun 2027*
+
+**Nantong University**  
+*Bachelor of Engineering in Software Engineering*  
+*School of Information Science and Technology*  
+*Sep 2020 – Jun 2024*
 
 ---
 
