@@ -1,5 +1,9 @@
 # Jiacheng Xue
 
+<p>
+  <img src="assets/photo.jpg" alt="Jiacheng Xue" width="120" style="border-radius: 50%;" />
+</p>
+
 **Email**: xjc202603@outlook.com  
 **Institution**: Nantong University  
 **School**: School of Artificial Intelligence and Computer Science  
@@ -22,12 +26,9 @@
 
 ---
 
-## 🔬 Research Interests
+## 🔬 Research Direction
 
 - Intelligent Software Engineering  
-- Software Vulnerability Assessment  
-- Continual Learning  
-- Neural Code Translation  
 
 ---
 
